@@ -13,6 +13,14 @@ var bodyParser = require("body-parser")
 //------------------------------------
 var app = express();
 
+//PORT
+//------------------------------------
+var PORT = process.env.PORT || 3000;
 
 
-console.log("Hello, Connected to server")
+//Server Running
+//------------------------------------
+app.listen(PORT, function () {
+    console.log("App running on port " + PORT + ".");
+});
+
