@@ -1,1 +1,1 @@
-# scraper-mongoose
+# NYT-Mongoose-Scraper
